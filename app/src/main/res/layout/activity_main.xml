@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.sqlitedatabase.MainActivity">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:hint="Name"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_width="150dp"
+        android:hint="email"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/branch"
+        android:layout_width="150dp"
+        android:hint="Branch"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="load data"
+        android:onClick="loadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/load"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="saveData"
+        android:text="save data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/tview"
+        android:hint="display text here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
